@@ -1,0 +1,260 @@
+(footprint "AUDIO-TH_HOOYA_PJ-320"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.4 0)
+		(layer "F.SilkS")
+		(uuid "f806e69c-7c05-420c-90bc-df9614f7807f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AUDIO-TH_HOOYA_PJ-320"
+		(at 0 6.4 0)
+		(layer "F.Fab")
+		(uuid "c15a5ede-0a25-4fee-aadf-c12d2de03fed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "AUDIO-TH_HOOYA_PJ-320"
+		(at 1 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b038107-9780-4fc0-835b-d57fcc9e09c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53e1a62b-06e0-45e4-9db1-8a3cfa1ee09e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4867542-4091-4746-9e1c-9b76d391e5ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.4 -2.5)
+		(end -8.4 2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1cd3f1ab-353c-4596-8d4a-eb81bf38f79f")
+	)
+	(fp_line
+		(start -5.6 -3)
+		(end -5.6 3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ea3a63f-4320-4615-b1ac-f3f49c56e6fb")
+	)
+	(fp_line
+		(start -5.6 -3)
+		(end -2.37 -3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a30512c-1dd7-45a7-b0b5-cccc2b3def57")
+	)
+	(fp_line
+		(start -5.6 -2.5)
+		(end -8.4 -2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff5f889d-fca3-4570-b9b9-359b76fcccc7")
+	)
+	(fp_line
+		(start -5.6 2.5)
+		(end -8.4 2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f785778e-0aa5-461c-8007-4016ef4bf3a3")
+	)
+	(fp_line
+		(start -5.6 3)
+		(end -4.37 3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c76eabb-4974-43d1-9298-049ba28b7da1")
+	)
+	(fp_line
+		(start -2.63 3)
+		(end 2.63 3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d9fc566-64d8-461b-9fe5-deffef4aa3b4")
+	)
+	(fp_line
+		(start -0.63 -3)
+		(end 5.7 -3.01)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70c22989-2933-4858-9e35-b81c4ecd506f")
+	)
+	(fp_line
+		(start 4.37 3)
+		(end 5.65 3.01)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a8d5f96-1d9b-4c21-a411-892329d24c7b")
+	)
+	(fp_line
+		(start 5.7 -3.01)
+		(end 5.7 2.99)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9aa10741-11b7-4d56-8dc3-014285dffa67")
+	)
+	(fp_circle
+		(center -3.5 0)
+		(end -3.3 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "4a37b34a-66e4-488e-b9e5-f4b13896512f")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 2.7 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "a04e939b-ab36-44d9-8c35-de0b2475c2c7")
+	)
+	(fp_circle
+		(center -8.33 -3.01)
+		(end -8.3 -3.01)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "10ca7d76-52d4-47fb-9800-44e475c232a7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1a18151a-55ad-4cbc-adbc-4ba8f2d58dcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -3.5 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4a49ad3-7ac0-4692-aba0-a85b693b11a5")
+	)
+	(pad "" thru_hole circle
+		(at 2.5 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "442b370d-cb67-463a-b904-68f553692395")
+	)
+	(pad "2" thru_hole oval
+		(at -1.5 -2.4 270)
+		(size 1.2 1.8)
+		(drill oval 0.700024 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4b067b5-f965-4592-80ca-0b929dbb57c0")
+	)
+	(pad "3" thru_hole oval
+		(at -3.5 2.4 270)
+		(size 1.2 1.8)
+		(drill oval 0.700024 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af60ce08-24de-4861-8989-4a4d0605ed06")
+	)
+	(pad "4" thru_hole oval
+		(at 3.5 2.4 270)
+		(size 1.2 1.8)
+		(drill oval 0.700024 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d35dc70d-b8fe-49fa-a95e-a4c65cadc1b6")
+	)
+	(model "C:/Users/Usuario/Desktop/JuanDavid/Kicad/KicadLibs/3dmodels/AUDIO-TH_HOOYA_PJ-320.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

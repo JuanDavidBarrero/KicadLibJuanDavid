@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" "JuanDavid_Library:AUDIO-TH_HOOYA_PJ-320"
-			(at 1.524 -10.16 0)
+		(property "Footprint" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,15 +42,6 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2939180"
-			(at 0.762 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
