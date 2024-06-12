@@ -2521,7 +2521,7 @@
 			)
 		)
 		(property "Footprint" "JuanDavid_Library:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at -0.254 -14.986 0)
+			(at 1.27 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2548,7 @@
 			)
 		)
 		(property "LCSC Part" "C84817"
-			(at 0 0 0)
+			(at -7.366 -9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 12.446 0)
+			(at 2.286 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +2728,7 @@
 			)
 		)
 		(property "LCSC Part" "C382139"
-			(at 0.254 -10.16 0)
+			(at -18.796 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2760,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 2.54 0)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "TEMP"
 					(effects
@@ -2778,7 +2778,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 0 0)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "PROG"
 					(effects
@@ -2796,7 +2796,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -2.54 0)
+				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2814,7 +2814,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -12.7 -5.08 0)
+				(at 0 10.16 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2832,7 +2832,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -5.08 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -2850,7 +2850,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -2.54 180)
+				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "~{STDBY}"
 					(effects
@@ -2868,7 +2868,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 0 180)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "~{CHRG}"
 					(effects
@@ -2886,7 +2886,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 2.54 180)
+				(at -2.54 10.16 270)
 				(length 2.54)
 				(name "CE"
 					(effects
@@ -2903,9 +2903,11 @@
 					)
 				)
 			)
+		)
+		(symbol "TP4056_1_1"
 			(pin unspecified line
-				(at 12.7 5.08 180)
-				(length 2.54)
+				(at 0 -10.16 90)
+				(length 2.54) hide
 				(name "EP"
 					(effects
 						(font
