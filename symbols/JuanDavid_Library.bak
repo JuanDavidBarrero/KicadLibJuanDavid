@@ -1806,7 +1806,7 @@
 			)
 		)
 		(property "Footprint" "JuanDavid_Library:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
-			(at 0 8.89 0)
+			(at 0.508 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
