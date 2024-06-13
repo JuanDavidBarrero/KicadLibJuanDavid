@@ -221,7 +221,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8571b34d-df65-452e-bc02-e59a36879247")
 	)
-	(model "C:/Users/Usuario/Desktop/JuanDavid/Kicad/KicadLibs/3dmodels/ESOP-8_L4.9-W3.9-H1.6-LS6.0-P1.27.wrl"
+	(model "${JUANDA_LIB}/3dmodels/ESOP-8_L4.9-W3.9-H1.6-LS6.0-P1.27.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

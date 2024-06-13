@@ -24,19 +24,22 @@ This repository contains symbols, footprints, and 3D models for use in KiCad 8.0
 
 1. **Clone the repository**:
     ```sh
-   git clone https://github.com/your_username/your_repository.git](https://github.com/JuanDavidBarrero/KicadLibJuanDavid.git
+    git clone https://github.com/JuanDavidBarrero/KicadLibJuanDavid.git
     ```
 
 2. **Set up the Libraries in KiCad**:
 
+    - Add the path to the lib and call it `JUANDA_LIB`
+    - Open KiCad and go to `Preferences` > `Configure Paths`.
+    - Click `Add`.
+    - In the `Name` field, enter `JUANDA_LIB`.
+    - In the `Path` field, enter the full path to the library folder (e.g., `C:/Users/JuanDavid/Libraries`).
+    - Click `OK` to save the environment variable.
     - Open KiCad and go to `Preferences` > `Manage Libraries`.
-    - Add the paths to the `symbols`, `footprints`, and `3d_models` folders in their respective sections.
+    - In the `Symbol Libraries` tab, add the key `JuanDavid_Library` with path `${JUANDA_LIB}/symbols/JuanDavid_Library.kicad_sym`.
+    - In the `Footprint Libraries` tab, add the key `JuanDavid_Library` the path `${JUANDA_LIB}/footprints/JuanDavid_Library.pretty`.
+    - In the `3D Models` tab, add the path `${JUANDA_LIB}/3d_models`.
 
-3. **Use the Components**:
-
-    - In the schematic editor, select the symbol library you added and choose the component you need.
-    - In the PCB editor, select the corresponding footprint.
-    - The 3D models will load automatically if properly configured in the footprints.
 
 ## Contributions
 

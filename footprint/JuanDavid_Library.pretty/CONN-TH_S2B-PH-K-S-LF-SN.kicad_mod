@@ -290,7 +290,7 @@
 		(remove_unused_layers no)
 		(uuid "d7ed469a-5ea9-462d-b93a-2852048b1bd3")
 	)
-	(model "C:/Users/Usuario/Desktop/JuanDavid/Kicad/KicadLibs/3dmodels/CONN-TH_HR-PH2.0-WI-2P.wrl"
+	(model "${JUANDA_LIB}/3dmodels/CONN-TH_HR-PH2.0-WI-2P.wrl"
 		(offset
 			(xyz 1 0 0)
 		)

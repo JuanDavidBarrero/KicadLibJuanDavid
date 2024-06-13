@@ -246,7 +246,7 @@
 		(remove_unused_layers no)
 		(uuid "d35dc70d-b8fe-49fa-a95e-a4c65cadc1b6")
 	)
-	(model "C:/Users/Usuario/Desktop/JuanDavid/Kicad/KicadLibs/3dmodels/AUDIO-TH_HOOYA_PJ-320.wrl"
+	(model "${JUANDA_LIB}/3dmodels/AUDIO-TH_HOOYA_PJ-320.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

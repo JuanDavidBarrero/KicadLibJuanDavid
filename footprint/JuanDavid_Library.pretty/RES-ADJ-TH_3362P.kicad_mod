@@ -383,7 +383,7 @@
 		(remove_unused_layers no)
 		(uuid "b27cb291-4caf-41c6-adf4-11e8c55f2259")
 	)
-	(model "C:/Users/Usuario/Desktop/JuanDavid/Kicad/KicadLibs/3dmodels/3362P.wrl"
+	(model "${JUANDA_LIB}/3dmodels/3362P.wrl"
 		(offset
 			(xyz 0 -1 0)
 		)

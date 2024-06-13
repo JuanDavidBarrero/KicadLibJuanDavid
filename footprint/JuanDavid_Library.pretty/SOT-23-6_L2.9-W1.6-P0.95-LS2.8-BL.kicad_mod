@@ -162,7 +162,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f22696b3-61bb-4d91-8fcf-aaae47e086c7")
 	)
-	(model "C:/Users/Usuario/Desktop/JuanDavid/Kicad/KicadLibs/3dmodels/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+	(model "${JUANDA_LIB}/3dmodels/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

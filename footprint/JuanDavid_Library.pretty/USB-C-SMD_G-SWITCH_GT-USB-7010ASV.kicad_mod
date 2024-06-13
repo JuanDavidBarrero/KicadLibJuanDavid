@@ -276,7 +276,7 @@
 		(remove_unused_layers no)
 		(uuid "29e282bf-633b-4bb4-be84-815cb8fa9410")
 	)
-	(model "C:/Users/Usuario/Desktop/JuanDavid/Kicad/KicadLibs/3dmodels/USB-C-SMD_G-SWITCH_GT-USB-7010ASV.wrl"
+	(model "${JUANDA_LIB}/3dmodels/USB-C-SMD_G-SWITCH_GT-USB-7010ASV.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

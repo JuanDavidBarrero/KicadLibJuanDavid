@@ -205,7 +205,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b62b7054-bbcc-458c-a801-420087b43314")
 	)
-	(model "C:/Users/Usuario/Desktop/JuanDavid/Kicad/KicadLibs/3dmodels/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
+	(model "${JUANDA_LIB}/3dmodels/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

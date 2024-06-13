@@ -439,7 +439,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "48fa8473-60d0-4d8c-ab78-4630607bf8df")
 	)
-	(model "C:/Users/Usuario/Desktop/JuanDavid/Kicad/KicadLibs/3dmodels/WIFIM-SMD_39P-L25.5-W18.0-H3.1-P1.27.wrl"
+	(model "${JUANDA_LIB}/3dmodels/WIFIM-SMD_39P-L25.5-W18.0-H3.1-P1.27.wrl"
 		(offset
 			(xyz 0 4 0)
 		)

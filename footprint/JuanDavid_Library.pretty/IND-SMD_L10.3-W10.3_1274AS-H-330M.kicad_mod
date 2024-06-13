@@ -156,18 +156,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3598af98-7e67-484e-ab79-4382c3ed7935")
 	)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/IND-SMD_L10.3-W10.3_1274AS-H-330M.wrl"
-		(offset
-			(xyz 0 -0 -0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "C:/Users/Usuario/Desktop/JuanDavid/Kicad/KicadLibs/3dmodels/IND-SMD_L10.3-W10.3_1274AS-H-330M.wrl"
+	(model "${JUANDA_LIB}/3dmodels/IND-SMD_L10.3-W10.3_1274AS-H-330M.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
