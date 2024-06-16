@@ -1189,8 +1189,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "JuanDavid_Library:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+			(at 2.54 -10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,8 +1207,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "    -300mV~8V Lithium-ion/Polymer 1 SOT-23-6 Battery Management ICs ROHS"
+			(at 3.175 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1249,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 0.635 0)
+				(at 8.89 0 180)
 				(length 2.54)
 				(name "OD"
 					(effects
@@ -1267,7 +1267,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -4.445 0)
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "CSI"
 					(effects
@@ -1285,7 +1285,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -1.27 180)
+				(at 8.89 -3.81 180)
 				(length 2.54)
 				(name "OC"
 					(effects
