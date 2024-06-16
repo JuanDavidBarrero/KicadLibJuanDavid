@@ -3064,8 +3064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "40V 550mV@5A 5A SMA(DO-214AC) Schottky Barrier Diodes (SBD) ROHS"
+			(at 1.27 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
