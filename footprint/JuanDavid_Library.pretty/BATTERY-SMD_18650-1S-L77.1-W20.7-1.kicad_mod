@@ -1,0 +1,232 @@
+(footprint "BATTERY-SMD_18650-1S-L77.1-W20.7-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -45.31 0)
+		(layer "F.SilkS")
+		(uuid "656b0b05-37d1-4139-ad62-8ca77aeaca2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BATTERY-SMD_18650-1S-L77.1-W20.7-1"
+		(at 0 45.31 0)
+		(layer "F.Fab")
+		(uuid "7710512c-57d2-4b05-8b1e-1e83b90d9bfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "BATTERY-SMD_18650-1S-L77.1-W20.7-1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e08676bd-aaf0-4aa8-ac24-f38cb6819dc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8925aa08-4628-4bd1-993f-3d5783bce237")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f042a71b-2386-4861-bbc2-4a475f9ac210")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -28.96)
+		(end 0 -26.67)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11d457f3-b152-4c88-8db0-46bc7b392f51")
+	)
+	(fp_line
+		(start 0 26.67)
+		(end 0 28.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "277930ae-9228-4a87-a442-37dfafb62eba")
+	)
+	(fp_line
+		(start 1.15 -27.81)
+		(end -1.14 -27.81)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "506b3ea0-5a34-4813-a016-c23902b33abf")
+	)
+	(fp_rect
+		(start -11.43 -38.1)
+		(end 11.43 38.1)
+		(stroke
+			(width 1.27)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9547b0f5-1476-46a2-9a98-aa665634be22")
+	)
+	(fp_circle
+		(center 0 -27.81)
+		(end 1.6 -27.81)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1c2f1bf3-b607-4abe-9579-98a10df64ef6")
+	)
+	(fp_circle
+		(center 0 27.81)
+		(end 1.6 27.81)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2b9e1b20-a9e5-4732-9a41-8b84a7ad26e1")
+	)
+	(fp_circle
+		(center 8 -35.84)
+		(end 8.39 -35.84)
+		(stroke
+			(width 0.79)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "e010674a-ea74-41c4-801c-ef291293eaa9")
+	)
+	(fp_line
+		(start -10.35 -38.54)
+		(end -10.35 -38.54)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4d37f81-f71b-4a09-98b1-9d4fb472ebd4")
+	)
+	(fp_line
+		(start -10.35 -38.54)
+		(end 10.35 -38.54)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b61e2d6e-14ef-4489-a2a6-613f6293935a")
+	)
+	(fp_line
+		(start 10.35 -38.54)
+		(end 10.35 38.54)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d390b881-a9c8-4e24-822d-d431e2f50802")
+	)
+	(fp_line
+		(start 10.35 38.54)
+		(end -10.35 38.54)
+		(stroke
+			(width 3)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1421aa05-b033-481c-9d3e-cbf7f3bb20b4")
+	)
+	(fp_circle
+		(center 10.35 43.02)
+		(end 10.38 43.02)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b4c3d4e0-a49c-4344-84a2-5f4d4c609d4b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bc2e1808-d256-4280-bc9d-bc0b44513600")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 8 -35.84)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1bde78db-a0d0-4fe4-8e4d-5de2e8337bbc")
+	)
+	(pad "1" smd rect
+		(at 0 41.31)
+		(size 7.62 5.08)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3761c5eb-2769-49d2-951d-81864d9b61e0")
+	)
+	(pad "2" smd rect
+		(at 0 -41.31)
+		(size 7.62 5.08)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "be190369-4938-4393-9461-1dba0c61e3bd")
+	)
+	(model "${JUANDA_LIB}/3dmodels/BATTERY-SMD_18650-1S-L77.1-W20.7-1.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
