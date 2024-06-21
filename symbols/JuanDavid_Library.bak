@@ -5640,6 +5640,435 @@
 			)
 		)
 	)
+	(symbol "USBLC6-2SC6"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at -3.81 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JuanDavid_Library:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+			(at 1.27 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "    6A 6V 5V SOT-23-6 Electrostatic and Surge Protection (TVS/ESD) ROHS"
+			(at 5.08 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2827654"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "USBLC6-2SC6_0_0"
+			(circle
+				(center -1.524 0)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.508 -4.572)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.508 2.032)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.508 -4.572)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.508 2.032)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.524 -2.54)
+				(radius 0.0001)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "USBLC6-2SC6_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -3.048) (xy -1.016 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.524) (xy -2.032 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -3.048) (xy 2.032 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 1.524) (xy 2.032 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+					(xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "USBLC6-2SC6_1_1"
+			(rectangle
+				(start -2.54 2.794)
+				(end 2.54 -5.334)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "USB_TYPE_C"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5661,7 +6090,7 @@
 			)
 		)
 		(property "Footprint" "JuanDavid_Library:USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
-			(at 0 0 0)
+			(at -3.81 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +6117,7 @@
 			)
 		)
 		(property "LCSC Part" "C2988369"
-			(at 11.43 -21.844 0)
+			(at -2.54 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,122 +6125,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "USB_TYPE_C_0_0"
-			(rectangle
-				(start 1.016 -17.78)
-				(end 1.524 -16.764)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 11.43 -14.986)
-				(end 10.414 -15.494)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 11.43 -12.446)
-				(end 10.414 -12.954)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 11.43 -4.826)
-				(end 10.414 -5.334)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 11.43 -2.286)
-				(end 10.414 -2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 11.43 0.254)
-				(end 10.414 -0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 11.43 2.794)
-				(end 10.414 2.286)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 11.43 7.874)
-				(end 10.414 7.366)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 11.43 10.414)
-				(end 10.414 9.906)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 11.43 15.494)
-				(end 10.414 14.986)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "USB_TYPE_C_0_1"
 			(rectangle
-				(start -8.89 17.78)
-				(end 11.43 -17.78)
+				(start -11.43 17.78)
+				(end 8.89 -17.78)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6011,7 +6328,7 @@
 		)
 		(symbol "USB_TYPE_C_1_1"
 			(pin passive line
-				(at 1.27 -22.86 90)
+				(at -1.27 -22.86 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -6029,7 +6346,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 15.24 180)
+				(at 13.97 15.24 180)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -6047,7 +6364,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 10.16 180)
+				(at 13.97 -5.08 180)
 				(length 5.08)
 				(name "CC1"
 					(effects
@@ -6065,7 +6382,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 -2.54 180)
+				(at 13.97 5.08 180)
 				(length 5.08)
 				(name "D+"
 					(effects
@@ -6083,7 +6400,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 2.54 180)
+				(at 13.97 10.16 180)
 				(length 5.08)
 				(name "D-"
 					(effects
@@ -6101,7 +6418,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 -12.7 180)
+				(at 13.97 -12.7 180)
 				(length 5.08)
 				(name "SBU1"
 					(effects
@@ -6119,7 +6436,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -22.86 90)
+				(at -1.27 -22.86 90)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -6137,7 +6454,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 15.24 180)
+				(at 13.97 15.24 180)
 				(length 5.08) hide
 				(name "VBUS"
 					(effects
@@ -6155,7 +6472,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 7.62 180)
+				(at 13.97 -7.62 180)
 				(length 5.08)
 				(name "CC2"
 					(effects
@@ -6173,7 +6490,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 -5.08 180)
+				(at 13.97 2.54 180)
 				(length 5.08)
 				(name "D+"
 					(effects
@@ -6191,7 +6508,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 0 180)
+				(at 13.97 7.62 180)
 				(length 5.08)
 				(name "D-"
 					(effects
@@ -6209,7 +6526,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 -15.24 180)
+				(at 13.97 -15.24 180)
 				(length 5.08)
 				(name "SBU2"
 					(effects
