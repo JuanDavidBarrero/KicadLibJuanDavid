@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "Battery holder"
+			(at -1.27 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "18650_0_1"
 			(polyline
 				(pts
@@ -196,6 +205,15 @@
 		)
 		(property "LCSC Part" "C2874602"
 			(at 2.54 -8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "2N3904"
+			(at -3.81 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -366,6 +384,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "2N3906"
+			(at -5.08 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "2N3906_0_1"
 			(polyline
 				(pts
@@ -529,10 +556,19 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "AMS1117-3.3"
+			(at -7.62 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "AMS1117-3.3_0_1"
 			(rectangle
-				(start -7.62 5.08)
-				(end 8.89 -3.81)
+				(start -7.5946 5.3086)
+				(end 8.9154 -3.5814)
 				(stroke
 					(width 0)
 					(type default)
@@ -684,6 +720,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "Molex connector 2mm"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CON_1x2_0_1"
 			(rectangle
 				(start -3.81 2.54)
@@ -794,6 +839,15 @@
 		)
 		(property "LCSC Part" "C6568"
 			(at 3.81 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "CP2102"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,6 +1449,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name " "Coil"
+			(at -3.81 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Coil_3.3A_4.7uH_0_1"
 			(arc
 				(start -2.03 0.01)
@@ -1540,6 +1603,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "Coil"
+			(at -3.81 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Coil__2.5A_100uH_0_1"
 			(arc
 				(start -2.03 0.01)
@@ -1678,6 +1750,15 @@
 		)
 		(property "LCSC Part" "C2927799"
 			(at 0.635 -8.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "DW01A"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,6 +1950,15 @@
 		)
 		(property "LCSC Part" "C701342"
 			(at 1.27 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESP32-WROOM-32E"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,6 +2751,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "ESP32-WROOM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "ESP32_WROOM_0_1"
 			(rectangle
 				(start -12.7 13.97)
@@ -3444,6 +3543,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "FS8205A"
+			(at -1.27 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "FS8205A_0_1"
 			(circle
 				(center -10.033 -0.635)
@@ -3955,6 +4063,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "ICL7662C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "ICL7662C_0_1"
 			(rectangle
 				(start -10.16 6.35)
@@ -4181,6 +4298,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "INA128"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "INA128_0_1"
 			(polyline
 				(pts
@@ -4398,6 +4524,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "Jack audio"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "JackAudio_0_1"
 			(rectangle
 				(start -6.1 0)
@@ -4563,6 +4698,15 @@
 		)
 		(property "LCSC Part" "C93652 "
 			(at 6.858 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "LM1458"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,6 +4993,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "MT3608"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "MT3608_0_1"
 			(rectangle
 				(start -5.08 5.08)
@@ -5029,6 +5182,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "SS54"
+			(at 1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "SS54_0_1"
 			(polyline
 				(pts
@@ -5143,6 +5305,15 @@
 		)
 		(property "LCSC Part" "C2902914"
 			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "SS54-MS"
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,6 +5466,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "Button 2.9mm 2mm"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "SlimButton_0_1"
 			(circle
 				(center -2.032 0)
@@ -5431,6 +5611,15 @@
 		)
 		(property "LCSC Part" "C382139"
 			(at -18.796 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "TP4056"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,6 +5872,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "Tantalum_cap"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Tantalum_cap_0_1"
 			(polyline
 				(pts
@@ -5821,6 +6019,15 @@
 		)
 		(property "LCSC Part" "C2827654"
 			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "USBLC6-2SC6"
+			(at -1.27 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,6 +6457,15 @@
 		)
 		(property "LCSC Part" "C2988369"
 			(at -2.54 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" " GT-USB-7010ASV"
+			(at -5.08 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,6 +6967,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "Potentiometers ROHS"
+			(at 1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Var_Res_0_1"
 			(polyline
 				(pts
@@ -7009,6 +7234,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "X9C103"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "X9C103_0_1"
 			(rectangle
 				(start -10.16 5.08)
@@ -7218,6 +7452,15 @@
 		)
 		(property "LCSC Part" "C2837532"
 			(at 0.508 -4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "Button"
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
