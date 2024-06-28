@@ -702,8 +702,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" " 1x2P 2P PH Tin 2 -25℃~+85℃ 2A 1 2mm Brass Right-Angle Push-Pull,P=2mm Wire To Board Connector ROHS"
+			(at 5.08 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,7 +720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "Molex connector 2mm"
+		(property "Name" " S2B-PH-K-S(LF)(SN)"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -828,8 +828,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "12Mbps Transceiver USB WQFN-28-EP(5x5) USB Converters ROHS"
+			(at 1.27 -34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CP2102"
+		(property "Name" "CP2102-GMR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4045,8 +4045,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" " Fixed -20V~-4.5V 4.5V~20V SOIC-8 DC-DC Converters ROHS"
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +4063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "ICL7662C"
+		(property "Name" "ICL7662CBA+T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4279,8 +4279,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 3.81 0)
+		(property "Description" "    2nA 25uV 1.3MHz Single SOIC-8-150mil Instrumentation OpAmps ROHS"
+			(at 2.54 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,8 +4298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "INA128"
-			(at 0 0 0)
+		(property "Name" "INA128UA/2K5"
+			(at 1.27 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,8 +4687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" " 200nA Dual 1MHz SOIC-8 Operational Amplifier ROHS"
+			(at 1.27 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +4705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "LM1458"
+		(property "Name" "LM1458MX/NOPB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5201,8 +5201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" " boost converterType 28V 2V~24V SOT-23-6 DC-DC Converters ROHS"
+			(at 1.27 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "Button 2.9mm 2mm"
+		(property "Name" "GT-TC029D-H020-L1"
 			(at 1.27 -10.16 0)
 			(effects
 				(font
@@ -5826,8 +5826,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 8.89 0)
+		(property "Description" "    4V~6V Lithium-ion/Polymer 1 1A ESOP-8 Battery Management ICs ROHS"
+			(at -3.81 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,8 +7524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "±10% 10kΩ Plugin Variable Resistors/Potentiometers ROHS"
+			(at 1.27 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,7 +7542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "Potentiometers ROHS"
+		(property "Name" "3362P-1-103"
 			(at 1.27 -11.43 0)
 			(effects
 				(font
@@ -7791,8 +7791,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" " ±20% 5V 10kΩ SOIC-8 Digital Potentiometers ROHS"
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +7809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "X9C103"
+		(property "Name" "X9C103SIZT1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8016,8 +8016,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Without 6mm 6mm 50mA Round Button Brick nogging SPST 6mm 8Ten thousand times 12V SMD Tactile Switches ROHS"
+			(at 1.27 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8034,7 +8034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "Button"
+		(property "Name" " KH-6X6X6H-STM"
 			(at 0 -8.89 0)
 			(effects
 				(font
