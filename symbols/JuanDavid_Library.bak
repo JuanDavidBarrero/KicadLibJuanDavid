@@ -6026,7 +6026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "    USBLC6-2SC6"
+		(property "Name" "USBLC6-2SC6"
 			(at -1.27 -17.78 0)
 			(effects
 				(font
