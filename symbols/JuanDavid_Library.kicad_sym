@@ -684,8 +684,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "JuanDavid_Library:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 1.905 -15.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
