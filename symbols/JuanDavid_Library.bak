@@ -1995,7 +1995,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 1.27 3.81 0)
+			(at -1.27 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,15 +2003,15 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 -2.54 0)
+			(at -2.54 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 -2.54 0)
+		(property "Footprint" "JuanDavid_Library:CONN-TH_2P-P2.00_HC-PH-2A-M"
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 -2.54 0)
+			(at -2.54 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,8 +2028,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 -2.54 0)
+		(property "Description" "1x2P 2P PH Tin 2 -25℃~+85℃ 2A 1 2mm Brass Straight Plugin,P=2mm Wire To Board Connector ROHS"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part " "C2979502"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "HC-PH-2A-M"
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,8 +2056,19 @@
 			)
 		)
 		(symbol "Con_1x2_V_0_1"
+			(rectangle
+				(start -3.81 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(circle
-				(center 1.8034 1.27)
+				(center 0 2.54)
 				(radius 0.38)
 				(stroke
 					(width 0)
@@ -2049,19 +2078,8 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 3.0734 2.54)
-				(end -2.0066 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin unspecified line
-				(at 5.6134 0 180)
+				(at 3.81 1.27 180)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -2079,7 +2097,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 5.6134 -2.54 180)
+				(at 3.81 -1.27 180)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -4395,6 +4413,196 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "FUET-4020"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "B"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JuanDavid_Library:BUZ-SMD_L4.0-W4.0-P3.50-L"
+			(at -2.54 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " 65dB Externally Driven Magnetic 4kHz SMD,4x4mm Buzzers ROHS"
+			(at -1.27 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part" "C391027"
+			(at -1.27 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "FUET-4020"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FUET-4020_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.78) (xy 1.27 -1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.78) (xy -1.27 -1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.78) (xy 1.27 1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.78) (xy 3.56 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.78) (xy 1.27 -1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.56 3.81) (xy 1.27 1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.56 3.81) (xy 3.56 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FUET-4020_1_1"
+			(pin unspecified line
+				(at -3.81 1.27 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 -1.27 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
