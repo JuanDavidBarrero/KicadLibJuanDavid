@@ -2037,7 +2037,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part " "C2979502"
+		(property "LCSC Part" "C2979502"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -4427,7 +4427,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "B"
-			(at 0 5.08 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4469,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC part" "C391027"
+		(property "LCSC Part" "C391027"
 			(at -1.27 -15.24 0)
 			(effects
 				(font
