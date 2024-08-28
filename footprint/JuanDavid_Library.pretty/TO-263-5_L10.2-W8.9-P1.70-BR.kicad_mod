@@ -169,6 +169,12 @@
 		(uuid "f32d7d01-81ae-4f6c-8bd8-2fa293fa2260")
 	)
 	(pad "3" smd rect
+		(at -5.16 0)
+		(size 8.5 11)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d8701d6e-c257-4d7f-a28a-91bf0593bdfb")
+	)
+	(pad "3" smd rect
 		(at 5.16 0)
 		(size 3.08 1.02)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -185,12 +191,6 @@
 		(size 3.08 1.02)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "887915e8-f38e-470e-b8dc-298d36be1bbf")
-	)
-	(pad "6" smd rect
-		(at -5.16 0)
-		(size 8.5 11)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "d8701d6e-c257-4d7f-a28a-91bf0593bdfb")
 	)
 	(model "${JUANDA_LIB}/3dmodels/TO-263-5-5P_L10.2-W8.7-H4.5-LS14.4-P1.70.wrl"
 		(offset
