@@ -973,8 +973,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -2.54 7.62 0)
+		(property "Footprint" "JuanDavid_Library:DIP-16_L20.3-W10.2-P2.54-LS10.2-BL"
+			(at 0.635 -18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,8 +991,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -2.54 7.62 0)
+		(property "Description" "  6 buffers invertidos. Alimentación de 3 a 15V. Tecnología CMOS. "
+			(at 0.635 -20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "CD4009"
+			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,6 +10105,508 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Transformer_1P_2S"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 5.715 14.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -6.985 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JuanDavid_Library:AT-010-V"
+			(at 1.27 -20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -6.985 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "transformador de aislamiento montado en PCB, 2VA, 110V / 6Vx 2/7, 5Vx 2/9Vx 2/12Vx 2/15Vx 2/18Vx 2/24Vx2"
+			(at 0.635 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://es.aliexpress.com/i/32737592666.html?gatewayAdapt=glo2esp"
+			(at 1.905 -18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Transformer_1P_2S_0_1"
+			(circle
+				(center -5.1054 2.8956)
+				(radius 0.284)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.175 -6.3246)
+				(mid -2.2911 -5.9563)
+				(end -1.905 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.175 -3.7846)
+				(mid -2.2911 -3.4163)
+				(end -1.905 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.175 -1.2446)
+				(mid -2.2911 -0.8763)
+				(end -1.905 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.175 1.2954)
+				(mid -2.2911 1.6637)
+				(end -1.905 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 -5.08)
+				(mid -2.277 -4.182)
+				(end -3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 -2.54)
+				(mid -2.277 -1.642)
+				(end -3.175 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 0)
+				(mid -2.277 0.898)
+				(end -3.175 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.905 2.54)
+				(mid -2.277 3.438)
+				(end -3.175 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.143 -11.43) (xy -1.143 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.127 8.89) (xy -0.127 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.6604 -10.16)
+				(mid 1.0249 -11.0401)
+				(end 1.905 -11.4046)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.6604 -7.62)
+				(mid 1.0249 -8.5001)
+				(end 1.905 -8.8646)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.6604 -5.08)
+				(mid 1.0249 -5.9601)
+				(end 1.905 -6.3246)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.6604 2.54)
+				(mid 1.0249 1.6599)
+				(end 1.905 1.2954)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.6604 5.08)
+				(mid 1.0249 4.1999)
+				(end 1.905 3.8354)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.6604 7.62)
+				(mid 1.0249 6.7399)
+				(end 1.905 6.3754)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 -8.89)
+				(mid 1.0108 -9.2585)
+				(end 0.6604 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 -6.35)
+				(mid 1.0108 -6.7185)
+				(end 0.6604 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 -3.81)
+				(mid 1.0108 -4.1785)
+				(end 0.6604 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 3.81)
+				(mid 1.0108 3.4415)
+				(end 0.6604 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 6.35)
+				(mid 1.0108 5.9815)
+				(end 0.6604 5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 8.89)
+				(mid 1.0108 8.5215)
+				(end 0.6604 7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.286 8.0518)
+				(radius 0.3059)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.3114 -5.0038)
+				(radius 0.3059)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Transformer_1P_2S_1_1"
+			(pin passive line
+				(at -10.795 3.81 0)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 9.525 -11.43 180)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -6.35 -1.27 0)
+				(length 1.27) hide
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -0.635 -15.24 90)
+				(length 1.27) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.795 -6.35 0)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 9.525 8.89 180)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 9.525 1.27 180)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 9.525 -3.81 180)
+				(length 7.62)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
