@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,6 +135,17 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "e6403ce5-2d5b-4c4c-8f6a-ba574b96f891")
+	)
+	(fp_rect
+		(start -2.921 -1.651)
+		(end 2.921 1.651)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "379cd977-dd42-4c1b-8df7-52ed70253907")
 	)
 	(fp_circle
 		(center -2.5 1.47)

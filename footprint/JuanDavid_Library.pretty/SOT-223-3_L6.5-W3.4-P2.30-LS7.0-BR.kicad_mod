@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,6 +115,17 @@
 		(fill none)
 		(layer "Cmts.User")
 		(uuid "83f954cd-c1a0-43a8-ad76-3a5393102069")
+	)
+	(fp_rect
+		(start -4.191 -3.556)
+		(end 4.318 3.556)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8698bad3-2893-4f93-ba6d-1e0a42dcaad5")
 	)
 	(fp_circle
 		(center 3.4 3.25)
