@@ -8620,7 +8620,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RASPBERRY_PI_4B_4GB:MODULE_RASPBERRY_PI_4B_4GB"
+		(property "Footprint" "JuanDavid_Library:MODULE_RASPBERRY_PI_4B_4GB"
 			(at 0 0 0)
 			(effects
 				(font

@@ -726,13 +726,13 @@
 	)
 	(model "${JUANDA_LIB}/3dmodels/RASPBERRY_PI_4B_4GB.step"
 		(offset
-			(xyz -20.32 0 -1.905)
+			(xyz 0 0 -0.635)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 -180)
+			(xyz 90 -180 -180)
 		)
 	)
 )
