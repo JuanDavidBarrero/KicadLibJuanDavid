@@ -1,0 +1,219 @@
+(footprint "SOT-23-8_L3.0-W1.7-P0.65-LS2.8-TL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.98 0)
+		(layer "F.SilkS")
+		(uuid "158c8cba-53dc-4928-b96c-fcc42441582b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23-8_L3.0-W1.7-P0.65-LS2.8-TL"
+		(at 0 4.98 0)
+		(layer "F.Fab")
+		(uuid "ee4c0a1a-8336-49a8-8230-e1d72e1f0307")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98c64d21-24d1-44c1-8a17-6799dc4b9e4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63277d2f-f5ee-4c82-ae82-05f26eaa58d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc348f56-d802-4588-9fb4-3a64680ec0a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.37 -1.52)
+		(end 0.37 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d95ba9da-9b35-4e32-9a7b-b8ec4d54c4d0")
+	)
+	(fp_line
+		(start -0.37 1.53)
+		(end -0.37 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff28ebfc-d339-4dce-a5f2-34f8a4a3360c")
+	)
+	(fp_line
+		(start 0.37 -1.52)
+		(end 0.37 1.53)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c13e0b38-829f-4a68-ab6d-a0c61269f978")
+	)
+	(fp_line
+		(start 0.37 1.53)
+		(end -0.37 1.53)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff43f7fb-6df8-4ea7-b84e-90e8caf2f2ed")
+	)
+	(fp_circle
+		(center -1.21 -1.61)
+		(end -1.06 -1.61)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "37158f57-a21b-4b0f-aa4e-7da0e790c114")
+	)
+	(fp_circle
+		(center -1.8 -0.98)
+		(end -1.65 -0.98)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "9848c282-4213-43a3-bf33-bd543fff6421")
+	)
+	(fp_rect
+		(start -1.84 -1.94)
+		(end 1.92 1.74)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d9a67c0e-b814-4839-93e5-aba67cf3a6de")
+	)
+	(fp_circle
+		(center -1.4 -1.45)
+		(end -1.37 -1.45)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9729ef81-c7cf-4cdb-997e-1f35c62d7faf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "11921618-8153-4282-90b3-958a772a6894")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.21 -0.98 270)
+		(size 0.36 1.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7b8724c2-2dbd-4c4f-be75-492d4b61e6d5")
+	)
+	(pad "2" smd oval
+		(at -1.21 -0.32 270)
+		(size 0.36 1.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8162631e-4a20-4480-9792-5852e4eff17c")
+	)
+	(pad "3" smd oval
+		(at -1.21 0.33 270)
+		(size 0.36 1.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e4fbc6a0-1b17-4e43-9e71-0c158bf0eac9")
+	)
+	(pad "4" smd oval
+		(at -1.21 0.98 270)
+		(size 0.36 1.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8792857e-ede3-4fef-92a6-5cd29274f6e2")
+	)
+	(pad "5" smd oval
+		(at 1.21 0.98 270)
+		(size 0.36 1.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3af4b187-fa2e-41c7-9403-d668861b077e")
+	)
+	(pad "6" smd oval
+		(at 1.21 0.33 270)
+		(size 0.36 1.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "42c13a76-8bcb-45c7-be44-1d75815a6a6d")
+	)
+	(pad "7" smd oval
+		(at 1.21 -0.32 270)
+		(size 0.36 1.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "858d3331-2589-4502-a404-bf3539dd267d")
+	)
+	(pad "8" smd oval
+		(at 1.21 -0.98 270)
+		(size 0.36 1.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "809c7717-311b-4a17-8280-02ab58c65ba5")
+	)
+	(model "${JUANDA_LIB}/3dmodels/SOT-23-8_L2.9-W1.6-H1.5-LS2.8-P0.65.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
