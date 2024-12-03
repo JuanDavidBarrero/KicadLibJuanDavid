@@ -143,7 +143,7 @@
 		(remove_unused_layers no)
 		(uuid "6a546554-ba39-4967-b9ef-81e29e4aff6b")
 	)
-	(model "${JUANDA_LIB}/3dmodels/TO-92-3_L4.9-W3.7-P1.27-L.wrl"
+	(model "${JUANDA_LIB}/3dmodels/TO-92-3_L4.9-W3.7-P1.27-L.step"
 		(offset
 			(xyz 0 0 -1)
 		)
