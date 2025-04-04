@@ -1,0 +1,219 @@
+(footprint "VSSOP-8_L3.0-W3.0-P0.65-LS5.0-BL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.13 0)
+		(layer "F.SilkS")
+		(uuid "48b4757b-640e-4ae9-8140-321d2dc79a31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VSSOP-8_L3.0-W3.0-P0.65-LS5.0-BL"
+		(at 0 6.13 0)
+		(layer "F.Fab")
+		(uuid "7272e0c4-b681-40c4-b193-989288b6de37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45001cb5-d158-4a36-a8e7-18c834fb34f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3bb0445-7ef5-4bc5-a29c-7f3bca161ce9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.58 -1.07)
+		(end 1.58 -1.07)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "174f3c99-232a-46a5-a2d2-bd97f14cef94")
+	)
+	(fp_line
+		(start -1.58 1.07)
+		(end -1.58 -1.07)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6642e3e6-e8b8-4d35-ae30-223294891a23")
+	)
+	(fp_line
+		(start 1.58 -1.07)
+		(end 1.58 1.07)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e15d3929-ca19-430c-be93-353d1db509c5")
+	)
+	(fp_line
+		(start 1.58 1.07)
+		(end -1.58 1.07)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35553d8c-69cc-4644-ad4a-b78f2dfcbfb4")
+	)
+	(fp_circle
+		(center -1.61 2.13)
+		(end -1.46 2.13)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7d40fd05-e7cf-48dd-8594-0e681f9fc2d1")
+	)
+	(fp_circle
+		(center -0.98 0.32)
+		(end -0.83 0.32)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b9a26e78-ae0d-4a63-977d-06d580655b6b")
+	)
+	(fp_circle
+		(center -0.98 2.85)
+		(end -0.83 2.85)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "a0d0119b-71ad-43dc-baf6-45f8668997f1")
+	)
+	(fp_rect
+		(start -1.778 -3.048)
+		(end 1.778 3.048)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "144dd956-c75c-425b-aac8-9b48a7ab8cd7")
+	)
+	(fp_circle
+		(center -1.5 2.45)
+		(end -1.47 2.45)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1ccf59cd-a076-4e39-b11a-c48b81cb461f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dcc02c89-eef4-4e2a-853f-e7ed5193b25f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -0.98 2.13)
+		(size 0.36 1.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1ce416b-2b52-431c-b070-609cbe288b79")
+	)
+	(pad "2" smd oval
+		(at -0.32 2.13)
+		(size 0.36 1.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef0a688c-364c-4c68-bddf-b57cae73248e")
+	)
+	(pad "3" smd oval
+		(at 0.33 2.13)
+		(size 0.36 1.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa22a46f-0859-4a35-94f1-1fe3ea72d365")
+	)
+	(pad "4" smd oval
+		(at 0.98 2.13)
+		(size 0.36 1.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0b6bfe05-029c-43d4-9b4d-3428c623a2bb")
+	)
+	(pad "5" smd oval
+		(at 0.98 -2.13)
+		(size 0.36 1.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7597094f-2e95-4c8e-994b-be5534dc6765")
+	)
+	(pad "6" smd oval
+		(at 0.33 -2.13)
+		(size 0.36 1.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cdc65473-3440-4f1e-b884-8015d8c2f095")
+	)
+	(pad "7" smd oval
+		(at -0.32 -2.13)
+		(size 0.36 1.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6229bf6e-adab-43b2-840a-6f6bbbd1ffd8")
+	)
+	(pad "8" smd oval
+		(at -0.98 -2.13)
+		(size 0.36 1.66)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "82ecbaae-0045-4bc9-946b-c9993399bc9d")
+	)
+	(embedded_fonts no)
+	(model "${JUANDA_LIB}/3dmodels/VSSOP-8_L3.0-W3.0-H1.1-LS4.9-P0.65.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
