@@ -1,0 +1,219 @@
+(footprint "SOIC-28_8P-L18.1-W7.6-P1.27-LS10.7-BL-ISO124U-1K"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.76 0)
+		(layer "F.SilkS")
+		(uuid "95868724-0ae9-446b-b503-3ab4897c6bf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOIC-28_8P-L18.1-W7.6-P1.27-LS10.7-BL-ISO124U-1K"
+		(at 0 8.76 0)
+		(layer "F.Fab")
+		(uuid "776e47e0-e4ea-49e6-b7fc-de8b46a11a66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bd3116f-72d8-4fa1-bed0-c973613aecc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac87548a-6040-41f2-924d-18b775edf29d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -9.03 -3.32)
+		(end 9.03 -3.32)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "616b373d-4e58-4f1c-86cb-f30b4ae9fc93")
+	)
+	(fp_line
+		(start -9.03 3.32)
+		(end -9.03 -3.32)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "160d4742-e1be-46e5-a8e6-435d3a42618f")
+	)
+	(fp_line
+		(start 9.03 -3.32)
+		(end 9.03 3.32)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac7418a3-be0a-49dd-b29a-5e89df5f00ad")
+	)
+	(fp_line
+		(start 9.03 3.32)
+		(end -9.03 3.32)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a64ef57-a94d-4148-be11-6b1d9e2ba1cd")
+	)
+	(fp_circle
+		(center -9 4.76)
+		(end -8.85 4.76)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "856a1f1a-c26f-40ee-9637-9bb297c21599")
+	)
+	(fp_circle
+		(center -8.25 2.57)
+		(end -8.1 2.57)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "39afd748-6db0-4abb-ba50-210d6fa70ad8")
+	)
+	(fp_circle
+		(center -8.25 5.56)
+		(end -8.1 5.56)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "9f517627-ff7e-4e3a-bb98-809eac7ae452")
+	)
+	(fp_rect
+		(start -9.525 -6.35)
+		(end 9.525 6.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fa8217af-a087-4dc9-8c4b-fc8308edb0dc")
+	)
+	(fp_circle
+		(center -8.92 5.13)
+		(end -8.89 5.13)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "119fbc49-1ef8-4f05-8cc5-3928a465ad22")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "19088968-d0ce-4021-ae70-c492f3a22e76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -8.25 4.76)
+		(size 0.59 2.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "852b69fc-3d30-490b-8cfd-107212050ee1")
+	)
+	(pad "2" smd oval
+		(at -6.99 4.76)
+		(size 0.59 2.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "56ad36ff-0a7e-4e1d-8383-db7e8c5730ec")
+	)
+	(pad "13" smd oval
+		(at 6.99 4.76)
+		(size 0.59 2.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "469068ec-3f54-45ff-9414-5ddd8fe240d9")
+	)
+	(pad "14" smd oval
+		(at 8.25 4.76)
+		(size 0.59 2.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "615eeb7e-1eb9-4960-8907-45db84bcb656")
+	)
+	(pad "15" smd oval
+		(at 8.25 -4.76)
+		(size 0.59 2.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb894a28-8683-440b-8158-20c80434f00f")
+	)
+	(pad "16" smd oval
+		(at 6.99 -4.76)
+		(size 0.59 2.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f821157d-8a99-4455-a9aa-a9813575fc07")
+	)
+	(pad "27" smd oval
+		(at -6.99 -4.76)
+		(size 0.59 2.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "af6afc88-5c95-4d79-a50e-081aa49ef120")
+	)
+	(pad "28" smd oval
+		(at -8.25 -4.76)
+		(size 0.59 2.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e86d8c37-6955-428c-b7b2-9511684bd476")
+	)
+	(embedded_fonts no)
+	(model "${JUANDA_LIB}/3dmodels/SOIC-28_L17.9-W7.5-H2.7-LS10.3-P1.27.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)

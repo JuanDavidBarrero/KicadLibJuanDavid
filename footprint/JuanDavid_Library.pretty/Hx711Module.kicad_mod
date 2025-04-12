@@ -56,7 +56,7 @@
 	(attr board_only exclude_from_pos_files exclude_from_bom)
 	(fp_rect
 		(start -8.89 -9.652)
-		(end 14.732 5.842)
+		(end 19.812 5.842)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -138,7 +138,7 @@
 		(uuid "10f8519b-55c8-4cad-95c4-5650c7e9f78d")
 	)
 	(pad "7" thru_hole circle
-		(at 12.954 1.778)
+		(at 18.288 1.778)
 		(size 2.2 2.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -146,7 +146,7 @@
 		(uuid "60f02b74-f570-4e3f-b208-51f003574e4f")
 	)
 	(pad "8" thru_hole circle
-		(at 12.954 -0.762)
+		(at 18.288 -0.762)
 		(size 2.2 2.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -154,7 +154,7 @@
 		(uuid "37fe348a-297f-4162-ba2f-6921071c3f4c")
 	)
 	(pad "9" thru_hole circle
-		(at 12.954 -3.302)
+		(at 18.288 -3.302)
 		(size 2.2 2.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
@@ -162,7 +162,7 @@
 		(uuid "03de0c66-f312-413a-a46c-0b6f59a0f7e1")
 	)
 	(pad "10" thru_hole circle
-		(at 12.954 -5.842)
+		(at 18.288 -5.842)
 		(size 2.2 2.2)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
