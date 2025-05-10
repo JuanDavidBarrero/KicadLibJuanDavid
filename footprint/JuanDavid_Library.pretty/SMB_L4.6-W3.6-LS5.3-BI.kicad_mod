@@ -1,0 +1,130 @@
+(footprint "SMB_L4.6-W3.6-LS5.3-BI"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "895f1611-4c2a-4cfa-995a-05a415109919")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMB_L4.6-W3.6-LS5.3-BI"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "3259d4c3-0443-4c9a-830c-5b8fdf97de8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48202fe9-e923-4abb-881f-6daae8d9badd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15978870-3cb2-4733-8744-39089d633dae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.66 -1.91)
+		(end -2.59 -1.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "010e4c9e-f0ce-4642-8984-aff19150cca7")
+	)
+	(fp_line
+		(start 2.67 1.9)
+		(end -2.6 1.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a764391-e7e1-4267-b4c7-8f4c6b41c26c")
+	)
+	(fp_rect
+		(start -3.7084 -2.2352)
+		(end 3.6576 2.1844)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "45236798-0f8a-46f2-b74f-2653a24cf925")
+	)
+	(fp_circle
+		(center -2.7 1.81)
+		(end -2.67 1.81)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2f93e1b6-b3cf-401e-ad0a-232aadebfb13")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "909aa4f7-46b2-4901-8e59-e0d2d7de0588")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.59 0)
+		(size 2.05 2.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab32bb05-ff38-4e93-b5c1-bfde82cda6d8")
+	)
+	(pad "2" smd rect
+		(at 2.59 0)
+		(size 2.05 2.24)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "89a1861f-2159-450e-be05-3a9cc0b919e0")
+	)
+	(embedded_fonts no)
+	(model "${JUANDA_LIB}/3dmodels/SMB_L4.6-W3.6-LS5.3-BI.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
