@@ -1,0 +1,223 @@
+(footprint "PWRM-SMD_DCP01XXXXBP-U"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.62 0)
+		(layer "F.SilkS")
+		(uuid "4ea55273-8b9a-46ee-b8bd-4752f38d5dfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PWRM-SMD_DCP01XXXXBP-U"
+		(at 0 8.62 0)
+		(layer "F.Fab")
+		(uuid "dc7e31b3-ad6b-4072-a611-2671853f4263")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85774e59-3f67-4eca-b576-b27cc2c98228")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3de7179d-d8e6-43ae-b281-7a44b2732557")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -9.6 -3.3)
+		(end -9.6 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b46936ff-70e7-4200-9129-7e8c8274ed73")
+	)
+	(fp_line
+		(start -9.6 -3.3)
+		(end 9.6 -3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7be57330-b84b-42c9-974f-302641bcbbfa")
+	)
+	(fp_line
+		(start -9.6 3.29)
+		(end -9.6 1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fdf5c286-7ccd-44a0-9ad7-86b7359244f7")
+	)
+	(fp_line
+		(start 9.6 -3.3)
+		(end 9.6 3.29)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "372d902c-2767-448c-b6ef-b68e22552c56")
+	)
+	(fp_line
+		(start 9.6 3.29)
+		(end -9.6 3.29)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06cdb9b8-c1ba-4c5a-b369-7c91fb4646a0")
+	)
+	(fp_arc
+		(start -9.577835 -1.269807)
+		(mid -9.611083 1.269952)
+		(end -9.6 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96950720-406f-4619-ab99-09f1ccc05ad9")
+	)
+	(fp_circle
+		(center -8.9 4.6)
+		(end -8.68 4.6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "48a58fbe-6b92-4756-8995-331514e09bc1")
+	)
+	(fp_circle
+		(center -7.6 4.9)
+		(end -7.4 4.9)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "0aec4113-c6fc-45e2-9b35-d0c819c1fdcb")
+	)
+	(fp_rect
+		(start -10.922 -5.842)
+		(end 10.16 5.842)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3c0b4b55-99d6-4109-bc90-ecafd75c81b1")
+	)
+	(fp_circle
+		(center -9.59 5.25)
+		(end -9.56 5.25)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ea2c5e3b-374f-470b-82b9-80689f6dbf8a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "adc77232-c8ed-49b8-943c-37caae26423e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -7.62 4.61)
+		(size 0.96 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3cd62234-0c09-4f96-8de0-4e68a4b1a313")
+	)
+	(pad "2" smd rect
+		(at -5.08 4.61)
+		(size 0.96 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e8a0120-21c0-4360-b07d-b866f9449f6c")
+	)
+	(pad "5" smd rect
+		(at 2.54 4.61)
+		(size 0.96 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "716a4f0d-65c9-47c5-ad4d-d4e8a2cdcf63")
+	)
+	(pad "6" smd rect
+		(at 5.08 4.61)
+		(size 0.96 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8abc2e9-353b-4def-a2a6-c744fa462064")
+	)
+	(pad "7" smd rect
+		(at 7.62 4.62)
+		(size 0.96 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b54ffb8d-670f-4b7b-ae98-793a60ca931b")
+	)
+	(pad "8" smd rect
+		(at 7.62 -4.62)
+		(size 0.96 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "777631c3-3990-4480-bad6-aa12dbce06b5")
+	)
+	(pad "14" smd rect
+		(at -7.62 -4.62)
+		(size 0.96 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c0b0af06-540a-44c0-ab04-0d1e0f04ee01")
+	)
+	(embedded_fonts no)
+	(model "${JUANDA_LIB}/3dmodels/PWRM-SMD_DCP01XXXXBP-U.step"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
