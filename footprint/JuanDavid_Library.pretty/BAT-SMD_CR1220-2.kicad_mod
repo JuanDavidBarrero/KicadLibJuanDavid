@@ -1,0 +1,170 @@
+(footprint "BAT-SMD_CR1220-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "645474b4-54ed-4266-9f65-b2b07fccf1e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT-SMD_CR1220-2"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "7d3f473e-7852-4913-a402-a97d6f819b4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfb55bc3-c7db-4e93-a94e-035d717cc6ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec403d4a-b482-4a46-8fa1-557fef027898")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -6.91 -2.17)
+		(mid 0.395803 -7.217924)
+		(end 7.1076 -1.403454)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63b4c172-d2cc-419a-884a-c16cfc595fcd")
+	)
+	(fp_arc
+		(start 7.05 1.42)
+		(mid 0.447691 7.185665)
+		(end -6.82007 2.285356)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23b0bce6-5ddf-4440-9fbf-3e2aeac4be62")
+	)
+	(fp_circle
+		(center -3.75 0)
+		(end -3.5 0)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5a32577f-0131-4321-86a8-7fcfa29bc982")
+	)
+	(fp_circle
+		(center 3.75 0)
+		(end 3.94 0)
+		(stroke
+			(width 0.38)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "8afe03ec-4eff-4062-971d-3f9ece5d911f")
+	)
+	(fp_rect
+		(start -11.049 -7.493)
+		(end 11.049 7.493)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9140b0fe-f965-472a-a8ae-40d69be6fde1")
+	)
+	(fp_circle
+		(center -10.07 7.19)
+		(end -10.04 7.19)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "58098b56-c27a-447f-8faa-91442375326a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3327c6ae-e006-4b2f-a3eb-5fd01241e6fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -3.75 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef768a29-ec74-4df0-8018-0a1321ad1677")
+	)
+	(pad "" thru_hole circle
+		(at 3.75 0)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bdce6820-464a-4486-9e8b-78fc7d8e0fa5")
+	)
+	(pad "1" smd rect
+		(at -8.6 0 180)
+		(size 4.5 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2eaa6627-4b7f-4490-b500-ff86bcb5a470")
+	)
+	(pad "2" smd rect
+		(at 8.6 0 180)
+		(size 4.5 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3756851d-625b-4dbc-b853-52992c6b397e")
+	)
+	(embedded_fonts no)
+	(model "${JUANDA_LIB}/3dmodels/BAT-SMD_CR1220-2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

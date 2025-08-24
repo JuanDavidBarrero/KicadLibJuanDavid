@@ -1,7 +1,7 @@
 (footprint "BAT-TH_MY-1220-04"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a0773ead-cc90-4433-b4f4-daf20dd2194d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -183,6 +171,17 @@
 		(layer "F.SilkS")
 		(uuid "445b0376-4916-4716-8b12-9890098552a0")
 	)
+	(fp_rect
+		(start -7.874 -5.461)
+		(end 8.001 7.239)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "114372f1-0d1f-4ce3-a946-f1f2efbe3401")
+	)
 	(fp_circle
 		(center -6.75 6.9)
 		(end -6.72 6.9)
@@ -190,7 +189,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2f6034c4-316c-4a56-979f-823eb2cbcee9")
 	)
@@ -201,7 +200,7 @@
 			(width 3.5)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3868903f-b447-48c4-9b0f-9f37e8932e03")
 	)
@@ -235,9 +234,10 @@
 	(pad "3" smd circle
 		(at 0 0)
 		(size 7 7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "171f8504-9c14-4b15-968b-760daf0e5ba1")
 	)
+	(embedded_fonts no)
 	(model "${JUANDA_LIB}/3dmodels/BAT-TH_MY-1220-04.step"
 		(offset
 			(xyz 0 0 3)
